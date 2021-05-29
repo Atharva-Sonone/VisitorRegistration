@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.atharva.miniproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/vrlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MiniProject">
+        <activity android:name=".ResidentDetails"></activity>
+        <activity android:name=".ResidentList" />
+        <activity android:name=".AddSocietyMember" />
+        <activity android:name=".DetailsVisitor" />
+        <activity android:name=".EditDetailes" />
+        <activity android:name=".VisitorsList" />
+        <activity android:name=".RegisterVisitor" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
